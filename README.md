@@ -1,69 +1,83 @@
-# React + TypeScript + Vite
+# STRV Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+Welcome to the STRV Portfolio, a personal project inspired by the vibrant world of JDM, streetwear, and urban culture. This portfolio showcases a unique blend of design aesthetics with modern web technologies to deliver an engaging and dynamic user experience. Whether you're a fan of automotive culture or urban fashion, this portfolio reflects the passion and creativity behind these lifestyles.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **Multilanguage Support:** Seamlessly switch between multiple languages to reach a broader audience.
+- **Project Tickets:** Interactive tickets highlighting different projects with detailed information.
+- **Responsive Design:** Optimized for all devices, from desktops to smartphones.
+- **Smooth Animations:** Engaging animations powered by Framer Motion and AOS for a lively browsing experience.
+- **Modern UI:** Clean and intuitive interface inspired by streetwear and urban themes.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Installation
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+To get a local copy of the project up and running, follow these steps:
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+1. Clone the repository:
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+   ```bash
+   git clone https://github.com/yourusername/strv-portfolio.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd strv-portfolio
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open your browser and visit `http://localhost:5173` to view the portfolio.
+
+## Project Structure
+
+```
+strv-portfolio/
+├── public/             # Static assets like images and fonts
+├── src/
+│   ├── components/     # Reusable React components
+│   ├── pages/          # Page components
+│   ├── i18n/           # Internationalization setup and translation files
+│   ├── styles/         # TailwindCSS and custom styles
+│   ├── utils/          # Utility functions and helpers
+│   └── App.tsx         # Main application component
+├── index.html          # Entry HTML file
+├── package.json        # Project metadata and scripts
+├── tailwind.config.js  # TailwindCSS configuration
+└── vite.config.ts      # Vite configuration
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Technologies Used
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- **React** - Frontend library for building user interfaces.
+- **Vite** - Next-generation frontend build tool for fast development.
+- **TailwindCSS** - Utility-first CSS framework for styling.
+- **i18next** - Internationalization framework for multilingual support.
+- **Framer Motion** - Animation library for React.
+- **AOS (Animate On Scroll)** - Library to animate elements on scroll.
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## Roadmap / Future Improvements
+
+- Add more language options to expand accessibility.
+- Integrate a backend for dynamic project content management.
+- Enhance SEO and performance optimizations.
+- Implement dark mode and theme switching.
+- Add user interaction tracking and analytics.
+- Expand project details with multimedia content.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
