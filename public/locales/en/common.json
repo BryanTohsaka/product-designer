@@ -1,0 +1,27 @@
+{
+  "title": "product designer",
+  "description": {
+    "heroP": "Hi, I’m Bryan — Product Designer. <br /> Since 2020, I’ve been designing digital products that don’t just solve problems — they connect with people.",
+    "workP": "Projects built with intention, design, and rhythm. Each one is a build with its own identity.",
+    "footer": "Interested in working <br /> together?",
+    "footer2": "[ Sometimes <1>“forever”</1>  is just a second. ]"
+  },
+  "work": {
+    "case": "Case Study",
+    "button": "View Case Study",
+    "strive": "From stickers and apparel to graphic systems and digital experiences, this project builds an authentic identity from scratch. STRV allowed me to merge the functional and the emotional to design something that is lived, not just used."
+  },
+  "about": {
+    "title": "Product Designer, specialized in experiences with purpose and attitude",
+    "p1": "I’m Bryan Tohsaka, a Product Designer specialized in merging flawless functionality with visual storytelling. My design philosophy was shaped, in part, during a year and a half of professional experience in Japan, where I internalized essential principles of precision, craftsmanship, and the constant pursuit of purposeful innovation.",
+    "p2": "This unique perspective allows me to approach projects — from identity systems and digital experiences to physical products like apparel and stickers — with methodological rigor and conceptual depth. My constant goal: to build authentic, powerful identities that resonate culturally, uniting the emotional and the technical under the distinctive influence of urban culture and the JDM scene.",
+    "p3": "I’m passionate about designing with intention, rhythm, and authenticity. I enjoy the challenge of creating experiences that are not just used, but lived. My process involves research, prototyping, visual development, and storytelling, integrating cultural elements into every project.",
+    "p4": "Outside of work, I find inspiration in music, urban photography, and car culture. I believe the best ideas are born at the intersection of the street, culture, and creativity."
+  },
+  "menu": {
+    "1": "home",
+    "2": "work",
+    "3": "about",
+    "4": "contact"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "title": "product designer",
+  "description": {
+    "heroP": "Hola, soy Bryan — Product Designer. <br /> Desde 2020, diseño productos digitales que no solo resuelven problemas, sino que conectan con las personas.",
+    "workP": "Proyectos construidos con intención, diseño y ritmo. Cada uno es un build con identidad propia.",
+    "footer": "¿Interesado en trabajar <br /> juntos?",
+    "footer2": "[ A veces <1>“para siempre”</1> es sólo un segundo nada más ]"
+  },
+  "work":{
+    "case" : "Caso de estudio",
+    "button": "Ver Caso de Estudio",
+    "strive": "De stickers y prendas a sistemas gráficos y experiencias digitales, este proyecto construye una identidad auténtica desde cero. STRV me permitió unir lo funcional y lo emocional para diseñar algo que se vive, no solo se usa."
+  },
+  "about":{
+    "title": "Product Designer, especializado en experiencias con propósito y actitud",
+    "p1": "Soy Bryan Tohsaka, Diseñador de Producto especializado en fusionar la funcionalidad impecable con la narrativa visual. Mi filosofía de diseño se forjó, en parte, durante una experiencia laboral de año y medio en Japón, donde internalicé principios esenciales de precisión, maestría artesanal y la búsqueda constante de la innovación con propósito.",
+    "p2": "Esta perspectiva única me permite abordar proyectos — desde sistemas de identidad y experiencias digitales hasta productos físicos como prendas y stickers - con un rigor metódico y una profundidad conceptual. Mi objetivo es constante: construir identidades auténticas y potentes que resuenen a nivel cultural, uniendo lo emocional y lo técnico bajo la influencia distintiva del urban culture y la escena JDM.",
+    "subtitle": "Habilidades e intereses",
+    "p3": "Me apasiona diseñar con intención, ritmo y autenticidad. Disfruto del reto de crear experiencias que no solo se usan, sino que se viven. Mi proceso incluye investigación, prototipado, desarrollo visual y storytelling, integrando elementos culturales en cada proyecto.",
+    "p4": "Fuera del trabajo, encuentro inspiración en la música, la fotografía urbana y la escena automovilística. Creo que las mejores ideas nacen en el cruce entre la calle, la cultura y la creatividad."
+  },
+  "menu": {
+    "1": "inicio",
+    "2": "proyectos",
+    "3": "perfil",
+    "4": "escribeme"
+  }
+}
