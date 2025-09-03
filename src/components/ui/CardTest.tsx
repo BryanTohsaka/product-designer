@@ -1,5 +1,4 @@
 import { useTranslation } from 'react-i18next';
-import StriveLarge from '../../assets/Strive-large-ticket.webp'
 import StriveSmall from '../../assets/Strive-small-ticket.webp'
 import { Link } from 'react-router'
 

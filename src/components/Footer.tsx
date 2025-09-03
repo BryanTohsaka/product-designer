@@ -3,7 +3,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 const Footer = () => {
-    const { t } = useTranslation('common');
+    const { } = useTranslation('common');
     return (
         <div className="max-w-[1920px] mx-auto px-4 lg:px-16 bg-dark bg-[url(./assets/bg-footer.webp)] bg-cover bg-blend-lighten my-20 lg:mb-0" id="contact">
             <div className="flex justify-center py-18 flex-col">
