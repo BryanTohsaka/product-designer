@@ -4,7 +4,7 @@ import About from './components/About.tsx';
 import Footer from './components/Footer.tsx';
 import MenuBar from './components/ui/MenuBar.tsx';
 import LanguageSwitcher from './components/LanguageSwitcher.tsx';
-import {motion} from "framer-motion"
+
 const App = () => {
   return (
     <div>
