@@ -1,10 +1,47 @@
 {
-    "projects": {
-        "strive": {
-            "title": "STRV",
-            "intro": "STRV es una marca que nace de la calle y la pasión por lo auténtico.",
-            "description": "Fusiona cultura JDM, diseño urbano y narrativa personal para crear piezas que no solo se usan, se viven. Este proyecto me permitió unir lo funcional con lo emocional para diseñar algo que se vive, no solo se usa."
-        }
-    },
-    "notFound": "Proyecto no encontrado"
+    "strive": {
+        "historiTitle": "Historia y Contexto",
+        "histori1": "Todo comenzó con una reflexión personal: ¿cómo podía transmitir la emoción que sentí al conducir por primera vez y el contraste con los años posteriores, donde un entorno laboral opresivo y un auto demasiado 'normal' me hicieron perder esa chispa? Quería crear algo que hablara de autenticidad, de no dejar que el sistema te apague, y que al mismo tiempo conectara con mi pasión por la cultura JDM, el streetwear y el tuning automotriz.",
+        "histori2": "De esa inquietud nació STRV (Strive), un concepto inicial que buscaba reflejar la idea de luchar por tus sueños. Sin embargo, el proyecto evolucionó a HASHIRI CO., un nombre más potente que conecta directamente con el movimiento y la velocidad: 'Hashiri' en japonés significa 'correr' o 'carrera'. Sin presupuesto para contratar a un diseñador, decidí construir la identidad de la marca usando recursos propios: diseño tipográfico, collage digital y herramientas accesibles como Figma y Canva.",
+        "problemTitle": "Problema / Oportunidad",
+        "problem1":"Brecha de presupuesto: No era viable recurrir a un estudio externo.",
+        "problem2":"Narrativa personal: Traducir mis experiencias vitales en un discurso visual coherente.",
+        "problem3":"Tiempo limitado: La necesidad de avanzar con una estrategia clara y organizada.",
+        "objetiveTitle":"Objetivos",
+        "objetive1":"Definir un nombre y dirección de marca sólidas.",
+        "objetive2":"Diseñar logotipo, paleta de color y tipografía que transmitieran rebeldía y movimiento.",
+        "objetive3":"Crear prototipos de stickers y mockups de prendas.",
+        "objetive4":"Documentar todo el proceso como caso de estudio para mi portafolio.",
+        "researchTitle":"Investigación y Descubrimiento",
+        "research1":"El proceso comenzó con un análisis comparativo de marcas como BAPE, Supreme y Hoonigan, que me permitió identificar cómo construyen narrativas visuales potentes y memorables. A partir de ahí, elaboré moodboards que combinaban la estética nocturna de la cultura JDM (luces de ciudad, siluetas de autos, reflejos metálicos) con elementos urbanos como el graffiti y tipografías en negrita.",
+        "research2":"Para complementar esta fase, realicé entrevistas informales con entusiastas del tuning y skaters, lo que me ayudó a comprender qué valores emocionales conectaban más con ellos:<1> autenticidad, rebeldía y pertenencia a una comunidad.</1>",    
+        "definitionTitle":"Definición de Marca",
+        "definition1":"La primera iteración del proyecto se llamó STRV, inspirado en la palabra inglesa Strive (esfuerzo). Sin embargo, conforme avanzaba la investigación, noté que la palabra transmitía lucha pero no necesariamente movimiento. Tras varias pruebas con usuarios, elegí HASHIRI CO., un nombre que en japonés significa “correr” o “carrera”, y que reflejaba mejor la esencia de velocidad y libertad asociada al JDM.",
+        "definition2":"El slogan elegido fue “Off the Loop”, un manifiesto contra la rutina y la presión social que invita a reconectar con la emoción de conducir. En conjunto, los valores de la marca quedaron definidos como autenticidad, rebeldía y redescubrimiento, con un posicionamiento enfocado en ropa y stickers premium en edición limitada.",
+        "designTitle":"Diseño de Identidad Visual",
+        "design1":"Para dar forma a esta identidad, trabajé en un logotipo basado en tipografía sans bold con ligaduras inspiradas en el volante y el pistón, buscando transmitir dinamismo incluso en un elemento tipográfico. La paleta cromática se definió con tres tonos principales: rojo racing, negro carbón y gris metálico, colores que evocan tanto el mundo automotriz como la estética urbana.",
+        "design2":"La aplicación de la identidad se materializó en stickers con collages de datos de circuito, así como en gorras y camisetas con tipografía minimalista, pensadas para funcionar tanto en contextos callejeros como en car meets.",
+        "testingTitle":"Prototipado y Testing",
+        "testing1":"El desarrollo de prototipos se llevó a cabo en Figma, creando componentes reutilizables para simular productos y construir mockups realistas. Paralelamente, utilicé Canva para realizar collages rápidos orientados a redes sociales y moodboards de comunicación visual.",
+        "testing2":"Compartí estas primeras propuestas en comunidades online de entusiastas JDM, lo que generó un feedback valioso: se destacaron ajustes necesarios en contraste y legibilidad, aspectos que fueron incorporados para mejorar la coherencia de la marca.",
+        "performanceTitle":"Simplificación y Eficiencia",
+        "performance1":"Sistema de branding ligero: tokens de color y tipografía en Figma.",
+        "performance2":"Documentación de procesos en Notion para mantener claridad y organización.",
+        "resultsTitle":"Resultados Parciales",
+        "results1":"Nombre final elegido: HASHIRI CO.",
+        "results2":"Kit de identidad visual terminado.",
+        "results3":"Serie inicial de stickers conceptuales y 3 mockups de prendas.",
+        "results4":"Bitácora visual con snapshots del proceso creativo.",
+        "lessonTitle":"Lecciones Aprendidas",
+        "lesson1":"Las limitaciones de recursos impulsan creatividad: el collage digital y la tipografía se convirtieron en herramientas expresivas clave.",
+        "lesson2":"Involucrar temprano a la comunidad evita errores y rediseños costosos.",
+        "lesson3":"Documentar no solo el resultado, sino también los fracasos y aprendizajes, da más peso al caso de estudio.",
+        "nextTitle":"Próximos Pasos",
+        "next1":"Producción física: Stickers y primeras prendas en pequeña escala.",
+        "next2":"Lanzamiento suave: Venta limitada online para probar aceptación.",
+        "next3":"Medición: Observar métricas de conversión y engagement.",
+        "next4":"Colaboraciones: Explorar alianzas con talleres y eventos de car meets.",
+        "footerText":"<1>HASHIRI CO.</1> nació de una historia personal y se consolidó como un manifiesto visual de autenticidad y rebeldía. Este caso de estudio demuestra mi capacidad de convertir experiencias vitales en un proyecto de diseño tangible, alineado con la metodología de Product Design."
+
+    }
 }

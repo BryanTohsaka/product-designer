@@ -1,10 +1,8 @@
 {
-    "projects": {
-        "strive": {
-            "title": "STRV",
-            "intro": "STRV is a brand born from the streets and the passion for authenticity.",
-            "description": "It fuses JDM culture, urban design, and personal narrative to create pieces that are not just worn but lived. This project allowed me to connect function with emotion, designing something to be experienced, not just used."
-        }
-    },
-    "notFound": "Project not found"
+    "strive": {
+        "histori1": "It all started with a personal reflection: how could I convey the excitement I felt when driving for the first time, and the contrast with the years that followed, where an oppressive work environment and a car that felt too 'normal' made me lose that spark? I wanted to create something that spoke about authenticity — about not letting the system dim your light — while at the same time connecting with my passion for JDM culture, streetwear, and automotive tuning.",
+        "histori2": "From that restlessness, STRV (Strive) was born — an initial concept meant to embody the idea of fighting for your dreams. However, the project evolved into HASHIRI CO., a stronger name that directly connects with movement and speed: in Japanese, 'Hashiri' means 'to run' or 'race'. With no budget to hire a designer, I decided to build the brand’s identity using my own resources: typographic design, digital collage, and accessible tools like Figma and Canva.",
+        "problem": "Problem / Opportunity",
+        "problemList": "<ul><li>Budget gap: Hiring an external studio wasn’t feasible.</li><li>Personal narrative: Translating my life experiences into a coherent visual story.</li><li>Limited time: The need to move forward with a clear and organized strategy.</li></ul>"
+    }
 }
