@@ -8,6 +8,7 @@ import { Frown, Crosshair, ChartLine, Award, BookOpenCheck, Footprints } from 'l
 import Footer from "@/components/Footer"
 import MenuBarBack from "@/components/ui/MenuBarBack"
 import { motion } from "framer-motion"
+import SliderHashiri from "@/components/ui/SliderHashiri"
 
 const Strive = () => {
     const { t } = useTranslation('projects')
@@ -89,6 +90,7 @@ const Strive = () => {
                             <p className="mb-20">{t("strive.testing2")}</p>
                         </div>
                     </section>
+                    <SliderHashiri />
                     <section className="flex flex-col lg:flex-row gap-12 mt-30">
                         <div className="cardSC">
                             <span className="flex gap-4"><ChartLine className="Card-icon" /><h3>{t("strive.performanceTitle")}</h3></span>

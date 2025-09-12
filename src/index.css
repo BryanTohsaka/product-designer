@@ -54,29 +54,13 @@ body{
 .cardSC ul, ol{
   @apply flex flex-col gap-6
 }
+
 .Card-icon {
   color: #F4FF9D; /* color del ícono */
   filter: drop-shadow(0 0 10px #E1FF00);
 }
 
-.slide-in{
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-  background-color: #0f0f0f;
-  transform-origin: bottom;
-}
-.slide-in{
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-  background-color: #0f0f0f;
-  transform-origin: top;
-}
+
 
 @theme inline {
   --radius-sm: calc(var(--radius) - 4px);

@@ -8,6 +8,7 @@ import NotFound from './pages/404.tsx';
 import Strive from './pages/Strive.tsx';
 import ScrollToTop from './components/ui/ScrollToTop.tsx';
 import ScrollToHashElement from './components/ui/ScrollToHashElement.tsx';
+import SliderHashiri from './components/ui/SliderHashiri.tsx';
 
 
 createRoot(document.getElementById('root')!).render(
@@ -17,6 +18,7 @@ createRoot(document.getElementById('root')!).render(
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="*" element={<NotFound />} />
+      <Route path="/slide" element={<SliderHashiri/>} />
       <Route path="/project/hashiriSC" element={<Strive />} />
     </Routes>
   </BrowserRouter>,
