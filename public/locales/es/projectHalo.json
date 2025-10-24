@@ -1,0 +1,86 @@
+{
+    "halo": {
+        "historiTitle": "Contexto",
+        "histori1": "Halo: Ground Command es un juego de miniaturas ambientado en el universo de Halo. A diferencia de otros wargames más populares como Warhammer 40k o Star Wars: Legion, su comunidad mantiene viva la experiencia mediante reglas fan-made y hojas de ejército manuales. El proceso de construir un ejército era lento, propenso a errores y completamente offline.",
+        "histori2": "Este proyecto nació como un ejercicio de diseño y desarrollo de producto, con el objetivo de ofrecer una herramienta moderna, visual y funcional para construir listas de ejército. Inspirado por el sistema Army Forge de OnePageRules, el proyecto evolucionó hasta convertirse en una plataforma modular que sirve como base para múltiples wargames.",
+        
+        "objetiveTitle":"Objetivo",
+        "objetiveSubTitle": "Diseñar y desarrollar una aplicación web que:",
+        "objetive1":"Permita crear ejércitos personalizados de manera rápida e intuitiva.",
+        "objetive2":"Calcule automáticamente puntos, restricciones y reglas especiales.",
+        "objetive3":"Genere una exportación limpia en PDF, lista para imprimir o compartir.",
+        "objetive4":"Sea modular y extensible, para poder adaptarla a otros juegos en el futuro.",
+
+        "problemTitle": "Problema detectado",
+        "problemSubTitle": "Los jugadores usaban hojas de cálculo, PDFs o notas improvisadas para armar sus ejércitos. Esto implicaba:",
+        "problem1":"Errores frecuentes en el conteo de puntos y reglas.",
+        "problem2":"Pérdida de tiempo al revisar compatibilidades entre unidades.",
+        "problem3":"Experiencias inconsistentes entre jugadores.",
+        "problem4":"Falta de una interfaz visual que acompañara el universo de Halo.",
+
+        "sectionProcessTitle":"Proceso",
+        "processTitle":"1 - Investigación",
+        "processSubTitle": "Se analizaron herramientas como:",
+        "process1":"Battlescribe (Warhammer 40k)",
+        "process2":"Army Forge (OnePageRules)",
+        "process3":"Tabletop Admiral (Star Wars: Legion)",
+        "processSubTitle2": "De ahí surgieron tres principios de diseño:",
+        "process4":"Rapidez sobre complejidad. El usuario debe poder armar una lista en minutos.",
+        "process5":"Claridad visual. Evitar el “ruido” visual típico de los generadores antiguos.",
+        "process6":"Control total. El jugador decide todo, sin validaciones restrictivas que interrumpan el flujo.",
+
+        "definitionTitle":"2 - Estructura de datos",
+        "definition1":"El primer reto fue convertir el reglamento en un formato legible por la app. Partiendo del PDF original (similar a OPR Army Forge), se extrajo manualmente cada unidad, habilidad y atributo, normalizándolo en JSON:",
+        "definition2":"Esto sentó las bases para un sistema escalable y reutilizable, capaz de cargar cualquier reglamento con la misma estructura.",
+        
+        "designTitle":"3 - UX / UI Design",
+        "designSubTitle": "El enfoque visual priorizó la legibilidad y el ritmo de lectura:",
+        "design1":"Colores neutros y tipografía compacta para imitar fichas tácticas.",
+        "design2":"Componentes reutilizables para cada tipo de unidad (Infantería, Vehículo, Élite, etc).",
+        "design3":"Un layout tipo dashboard, donde el usuario puede construir, visualizar y exportar sin cambiar de pantalla.",
+        "designSubTitle2": "Componentes principales:",
+        "design4":"UnitCard: muestra información básica y opciones.",
+        "design5":"ArmyPanel: calcula puntos y valida compatibilidades.",
+        "design6":"ExportSection: genera el PDF final.",
+        
+        "devTitle":"4 - Desarrollo",
+        "devSubTitle": "Stack técnico:",
+        "dev1":"Frontend: React + TailwindCSS + Vite",
+        "dev2":"Gestión de estado: Hooks + Context API",
+        "dev3":"Exportación PDF: pdfmake (configurado para respetar tipografía y estructura OPR)",
+        "dev4":"Datos: JSON locales (próximamente MongoDB Atlas)",
+        "devSubTitle2": "Durante el desarrollo, se tomaron varias decisiones clave:",
+        "dev5":"Cambio de enfoque en la exportación: ",
+        "dev51":" Inicialmente, se usó jsPDF, pero su manejo de tablas y estilos era limitado. Se migró a pdfmake para obtener un formato más consistente.",
+        "dev6":"Eliminación de dependencias innecesarias:",
+        "dev61":"El objetivo fue mantener el proyecto lightweight (<1MB comprimido).",
+        "dev7":"Diseño modular:",
+        "dev71":"Se separó la lógica de datos (units, rules, stats) del renderizado, permitiendo integrar fácilmente nuevas facciones o juegos.",
+
+        "performanceTitle":"5 - Complejidad",
+        "performance1":"Lo que comenzó como un proyecto técnico terminó convirtiéndose en una lección sobre diseño de sistemas. En un inicio, HGC parecía algo sencillo: una app para construir listas de ejército a partir de datos en JSON. Pero conforme el proyecto avanzó, descubrí que estaba enfrentándome a algo más profundo: la lógica detrás de cada unidad, sus excepciones, las reglas especiales y cómo todas esas variables podían convivir en una estructura coherente sin romper la experiencia del usuario.",
+        "performance2":"La complejidad del proyecto me obligó a replantear decisiones constantemente; muchas de las soluciones que parecían correctas al inicio se volvieron obstáculos conforme el flujo real de uso emergía.",
+        "performance3":"Uno de los mayores retos fue mantener el equilibrio entre precisión técnica y fluidez visual. Diseñar una herramienta táctica sin que se sintiera pesada fue casi como construir un sistema operativo en miniatura. Cada cambio en la interfaz debía responder a una lógica interna, pero también transmitir la sensación de control y claridad que caracteriza a un buen juego de estrategia.",
+        "performance4":"La exportación a PDF fue otro punto de inflexión: el formato debía respetar jerarquías visuales, conservar legibilidad y adaptarse a distintos tamaños de ejército, algo que terminó requiriendo un sistema de layout propio dentro de pdfmake.",
+        
+        "resultsTitle":"6 - Resultados",
+        "results1":"Al final, el proyecto no solo logró su objetivo funcional —permitir crear, modificar y exportar ejércitos de forma fluida—, sino que se transformó en un ejercicio completo de diseño de producto. HGC me permitió experimentar con la relación entre datos, estructura y narrativa; entender cómo una herramienta puede transmitir identidad incluso sin recurrir a la estética tradicional del universo de Halo.",
+        "results2":"Más que un generador de listas, se convirtió en una plataforma para explorar cómo la estrategia puede volverse tangible a través del diseño.",
+
+        "lessonTitle":"Lecciones Aprendidas",
+        "lesson1":"Las limitaciones de recursos impulsan creatividad: el collage digital y la tipografía se convirtieron en herramientas expresivas clave.",
+        "lesson2":"Involucrar temprano a la comunidad evita errores y rediseños costosos.",
+        "lesson3":"Documentar no solo el resultado, sino también los fracasos y aprendizajes, da más peso al caso de estudio.",
+
+        "testingTitle":"7 - Pruebas",
+        "testing1":"Actualmente, el proyecto se encuentra en fase de pruebas, ajustando detalles de rendimiento, validación de listas y consistencia visual en la exportación. Esta etapa ha sido fundamental para observar cómo distintos usuarios interpretan la interfaz y cómo pequeñas mejoras en el flujo pueden marcar la diferencia entre una herramienta funcional y una experiencia intuitiva.",
+        
+        "nextTitle":"8 - Próximos Pasos",
+        "next1":"Mirando hacia adelante, mi intención es seguir expandiendo el proyecto hacia un sistema más abierto. Quiero integrar una base de datos en la nube para guardar listas de usuario, añadir modos visuales de despliegue y permitir personalizar unidades o armas desde la interfaz.",
+        "next2":"En el fondo, HGC es más que un proyecto técnico: es una reflexión sobre cómo el diseño puede traducir la complejidad en orden, y cómo una experiencia bien estructurada puede hacer que incluso la guerra —en su versión lúdica— se sienta comprensible, intuitiva y viva.",
+
+        
+        "footerText":"Este proyecto me recordó que un buen diseño de producto no solo se trata de estética o funcionalidad, sino de traducir un sistema complejo en una experiencia comprensible. En este caso, el producto debía respetar las reglas de un juego táctico mientras ofrecía una interfaz fluida y moderna."
+
+    }
+}

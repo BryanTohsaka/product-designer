@@ -54,13 +54,24 @@ body{
 .cardSC ul, ol{
   @apply flex flex-col gap-6
 }
-
 .Card-icon {
-  color: #F4FF9D; /* color del ícono */
+  color: #F4FF9D; 
   filter: drop-shadow(0 0 10px #E1FF00);
 }
 
-
+.Card-iconHalo {
+  color: #615fff; 
+  filter: drop-shadow(0 0 10px #615fff);
+}
+.cardSCHalo h3{
+  @apply font-bold text-white mb-10
+}
+.cardSCHalo ul, ol{
+  @apply flex flex-col gap-6
+}
+.cardSCHalo{
+  @apply border-[.1em] border-Grey rounded-lg p-7 font-inter text-Grey hover:shadow-[0px_14px_50px_-26px_rgba(97,_95,_255,_1)] transition-all duration-400 ease-in-out lg:w-1/2
+}
 
 @theme inline {
   --radius-sm: calc(var(--radius) - 4px);

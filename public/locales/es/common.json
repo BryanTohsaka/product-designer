@@ -6,12 +6,13 @@
     "footer": "¿Interesado en trabajar <br /> juntos?",
     "footer2": "[ A veces <1>“para siempre”</1> es sólo un segundo nada más ]"
   },
-  "work":{
-    "case" : "Caso de estudio",
+  "work": {
+    "case": "Caso de estudio",
     "button": "Ver Caso de Estudio",
-    "strive": "De stickers y prendas a sistemas gráficos y experiencias digitales, este proyecto construye una identidad auténtica desde cero. STRV me permitió unir lo funcional y lo emocional para diseñar algo que se vive, no solo se usa."
+    "strive": "De stickers y prendas a sistemas gráficos y experiencias digitales, este proyecto construye una identidad auténtica desde cero. STRV me permitió unir lo funcional y lo emocional para diseñar algo que se vive, no solo se usa.",
+    "halo": "De un reglamento táctico a una experiencia digital inmersiva. HGC transforma la estrategia y el caos en diseño, llevando la guerra de la mesa a la pantalla con una precisión visual que se siente viva."
   },
-  "about":{
+  "about": {
     "title": "Product Designer, especializado en experiencias con propósito y actitud",
     "p1": "Soy Bryan Tohsaka, Diseñador de Producto especializado en fusionar la funcionalidad impecable con la narrativa visual. Mi filosofía de diseño se forjó, en parte, durante una experiencia laboral de año y medio en Japón, donde internalicé principios esenciales de precisión, maestría artesanal y la búsqueda constante de la innovación con propósito.",
     "p2": "Esta perspectiva única me permite abordar proyectos — desde sistemas de identidad y experiencias digitales hasta productos físicos como prendas y stickers - con un rigor metódico y una profundidad conceptual. Mi objetivo es constante: construir identidades auténticas y potentes que resuenen a nivel cultural, uniendo lo emocional y lo técnico bajo la influencia distintiva del urban culture y la escena JDM.",
