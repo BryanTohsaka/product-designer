@@ -11,7 +11,11 @@ const Footer = () => {
                     <Trans i18nKey="description.footer">
                         ¿Interesado en trabajar <br /> juntos?
                     </Trans>
-                </p>
+                   
+                </p> 
+                <h4 className="text-red text-center mt-8 text-xl tracking-wider font-medium">
+                        bryan_avina@hotmail.com
+                    </h4>
                 {/*
                 <section className="links flex flex-col items-center gap-8 text-light capitalize mt-20 lg:flex-row lg:justify-center">
                     <a href="" className="" >instagram</a>
