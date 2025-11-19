@@ -12,11 +12,12 @@ const Footer = () => {
                         ¿Interesado en trabajar <br /> juntos?
                     </Trans>
                 </p>
+                {/*
                 <section className="links flex flex-col items-center gap-8 text-light capitalize mt-20 lg:flex-row lg:justify-center">
                     <a href="" className="" >instagram</a>
                     <a href="" className="" >linkedin</a>
                     <a href="" className="" >behance</a>
-                </section>
+                </section> */}
                 <p className="text-white text-center footer-text font-anton mt-30 text-sm">
                     <Trans i18nKey="description.footer2">[ Sometimes <span>“forever”</span>  is just a second. ]</Trans>
                 </p>
